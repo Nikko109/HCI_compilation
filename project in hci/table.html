@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Visualization Lab</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container rounded p-1">
+        <div class="row justify-content-center">
+            <style>
+                .img-fluid {
+                  transition: transform 0.3s ease;
+                }
+                
+                body{
+                  background-color: #414141;
+                }
+          
+                .img-fluid:hover {
+                  transform: scale(1.1);
+                }
+              </style>
+          <div class="text-center col-md-500xp border border-1">
+
+            
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Middle</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Nikko Rey</td>
+              <td>Leyros</td>
+              <td>Arguelles</td>
+              <td>@Arguelles</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Rie</td>
+              <td>Baginaon</td>
+              <td>Arguelles</td>
+              <td>@Arguelles</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Relina</td>
+              <td>Pecato</td>
+              <td>Leyros</td>
+              <td>@Arguelles</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Lynde Mae</td>
+              <td>Leyros</td>
+              <td>Arguelles</td>
+              <td>@Arguelles</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- "Back to Home" link -->
+    <div class="row mt-1">
+      <div class="col">
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
+      </div>
+    </div>
+  </div>
+  
+ 
+  <!-- alert -->
+  <div class="alert-container d-none">
+    <script>
+      alert("Welcome to my Website");
+    </script>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/chart.js/dist/chart.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

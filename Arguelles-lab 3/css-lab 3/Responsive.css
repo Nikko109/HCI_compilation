@@ -1,0 +1,37 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0; 
+}
+
+header {
+ background-color: red;
+ color: black;
+ padding: 50px;
+ text align: ceter;
+}
+ nav ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0; 
+}
+nav ul li{
+ display: inline;
+ margin-right: 30px;
+ }
+
+nav ul li a{
+  color: pink;
+ text-decoration: none;
+ }
+
+section{
+   margin-bottom: 30px;
+}
+
+footer { 
+    background-color: green;
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+}

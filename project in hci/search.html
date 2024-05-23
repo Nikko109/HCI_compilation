@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Visualization Lab</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+
+    <form class="d-flex" role="search" onsubmit="return searchChart()">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      
+<div class="input-group mt-3">
+    <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-primary" type="button">Search</button>
+  </div>
+<!-- Scripts -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="./node_modules/chart.js/dist/chart.umd.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

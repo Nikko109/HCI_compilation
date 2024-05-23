@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Visualization Lab</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dashboard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Chart Type
+            </a>
+            <ul class="dropdown-menu">
+              <li class="bg-danger"><a onclick="changeChartType('bar')" class="dropdown-item text-white">Bar Chart</a></li>
+              <li class="bg-warning"><a onclick="changeChartType('line')" class="dropdown-item text-dark">Line Chart</a></li>
+              <li class="bg-success"><a onclick="changeChartType('pie')" class="dropdown-item text-white">Pie Chart</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link text-success" href="table.html"><style>
+            .img-fluid {
+              transition: transform 0.3s ease;
+            }
+            
+            body{
+              background-color: #414141;
+            }
+      
+            .img-fluid:hover {
+              transform: scale(1.1);
+            }
+          </style>
+          Table</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="second.html">Contact Form</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="third.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="third2nd.html">Signup</a></li>
+          <li class="nav-item"><a class="nav-link text-danger" href="image.html">Image</a></li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="Chat.html">
+              Chat
+              <div class="d-flex justify-content-center" data-bs-toggle="tooltip" title="Badge tooltip text">
+                <span class="badge bg-warning text-dark">+1</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" onsubmit="return searchChart()">
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- alert -->
+  <div class="alert-container d-none">
+    <script>
+      alert("Welcome to my Website");
+    </script>
+  </div>
+
+  <!-- Chart (You need to implement this with Chart.js) -->
+  <div class="container  border border-success p-3">
+    <div class="row justify-content-star">
+      <div class="text-center col-md-550xp border border-1">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/chart.js/dist/chart.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
