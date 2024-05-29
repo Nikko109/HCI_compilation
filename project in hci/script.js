@@ -1,9 +1,9 @@
 
 const sampleData = {
-  labels: ['LtWOO A3', 'LTWOO A5', 'LTWOO A7', 'LTWOO AX', 'SHIMANO TOURNEY', 'SHIMANO ALTUS', 'SHIMANO ACERA', 'SHIMANO DEORE', 'SRAM', 'SHIMANO GXR', 'SHIMANO SLX', 'SHIMANO DEORE XT'],
+  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
   datasets: [{
-    label: 'Money Savings For Parts in Bicycle Parts in  Rear Derailleur',
-    data: [300, 400, 500, 600, 700, 300, 450, 450, 350,2000, 1800, 2500],
+    label: 'Sample Data',
+    data: [10, 20, 30, 40, 50, 60, 60, 50, 40, 30, 20, 10],
     backgroundColor: 'rgba(245, 64, 145)',
     borderColor: 'rgba(95, 43, 0)',
     borderWidth: 1
