@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Visualization Lab</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="sidebar pe-3 pb-3 bg-dark" style="width: 1400px;height: 900px;"> <!-- Adjusted width -->
+    <nav class="navbar bg-dark navbar-dark">
+        <a href="index.html" class="navbar-brand mx-4 mb-1">
+            <h3 class="text-warning">
+              <i class="fa fa-user-edit me-1"></i>Arguelles
+
+              <div class="d-flex align-items-center ms-1 mb-10">
+              <div class="position-relative">
+                  <img class="rounded-circle" src="1.jpg " alt="" style="width: 100px; height: 100px;"> <!-- Adjusted size -->
+                  <div class="bg-success rounded-circle border border-4 border-white position-absolute end-0 bottom-0 p-1"></div>
+              </div>
+              <div class="ms-3">
+                  <h6 class="mb-1"></h6>
+              </div>
+          </div>
+  </h3>
+        </a>
+
+        <div class="container-fluid bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span> <!-- Added this line -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Added collapse class here -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="third.html">Login</a> <!-- Adjusted text -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="third2nd.html">Sign-up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="image.html">Images</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="chat.html">Chat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html">Tables</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="second.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chart.type.html">Chart Type Dropdown</a> <!-- Adjusted text -->
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/chart.js/dist/chart.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

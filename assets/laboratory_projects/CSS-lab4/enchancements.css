@@ -1,0 +1,100 @@
+:root {
+ --main-color: blue;
+   padding: 100px;
+}
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ flex-direction: column;
+}
+.hover-button {
+ padding: 10px 20px;
+ border: none;
+ background-color: var(--main-color);
+ color: violet;
+ transition: width 2s, height 4s;
+}
+.hover-button:hover {
+ background-color: red;
+ width: 300px;
+ height: 300px;
+ transition-timing-function: linear;
+}
+.animation-box {
+ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+ animation: box-move 5s infinite linear;
+}
+:root {
+ --main-color: blue;
+   padding: 100px;
+}
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ flex-direction: column;
+}
+.hover-button {
+ padding: 10px 20px;
+ border: none;
+ background-color: var(--main-color);
+ color: violet;
+ transition: width 2s, height 4s;
+}
+.hover-button:hover {
+ background-color: red;
+ width: 300px;
+ height: 300px;
+ transition-timing-function: linear;
+}
+.animation-box {
+ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+ animation: box-move 5s infinite linear;
+}
+
+.box3{ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+}
+
+.animation-box1 {
+ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+ animation: box-move1 5s infinite linear;
+}
+
+
+@keyframes box-move1 {
+
+ from {background-color: red;
+transform: rotate(0deg);
+ }
+ to {background-color: yellow;
+ transform: rotate(-360deg);
+ }
+}
+
+
+
+@keyframes box-move {
+
+ from {background-color: red;
+transform: rotate(0deg);
+ }
+ to {background-color: yellow;
+ transform: rotate(360deg);
+ }
+}
+
